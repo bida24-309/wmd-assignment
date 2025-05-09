@@ -1,0 +1,95 @@
+h1{
+    font-family: serif;
+    color: palevioletred;
+    text-size-adjust: medium;
+    text-align: left;
+    border-bottom: solid medium;
+}    
+
+nav{
+    font-size: larger;
+
+}
+
+h2{
+    text-align: center;
+}
+
+body{
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+p{
+ font-family: sans-serif;
+ text-align: left;
+ font-size: medium;
+}
+
+p1{
+    text-align: left;
+}
+
+p2{
+    text-align: center;
+}
+
+p3{
+    text-align: right;
+}
+
+label{
+    float: center;
+}
+
+nav{
+    display: inline; /*only appy for the top navigation*/
+    color: deeppink;
+    text-decoration: none;
+    width: fit-content;
+    display: flex; /*make the navigation to be full screen*/
+}
+
+a{
+   display: block; 
+   padding: 15px 20px;
+   display: inline;
+   text-decoration: none;
+}
+
+a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+    transition: background-color 0.3s ease;
+}
+
+slideshow-container{
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+myslides{
+    display: none;
+    width: 100%;
+    animation: fade 1.5s;
+}
+
+@keyframes fade{
+    from{opacity:0.4}
+    to{opacity:1}
+}
+
+img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+footer{
+    color: palevioletred;
+    text-align: left;
+    font-size: larger;
+}
+    
+    
