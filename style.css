@@ -149,10 +149,16 @@ body, html {
 .fa-pinterest {
   background: #cb2027;
   color: white;
+}
+
+/*Center all font awesome icons*/
+.fa {
+    text-align: center;
+}
 
 footer{
     color: palevioletred;
-    text-align: center;
+    text-align: left;
     font-size: larger;
 }
     
