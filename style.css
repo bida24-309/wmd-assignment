@@ -147,9 +147,13 @@ body, html {
 
 /* Instagram */
 .fa-instagram {
-  background: #FE2C55;
+  background: #125688;
   color: white;
 }
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
 
 footer{
     color: palevioletred;
