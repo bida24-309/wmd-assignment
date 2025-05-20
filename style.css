@@ -138,6 +138,18 @@ body, html {
   color: white;
 }
 
+/* Tiktok */
+.fa-tiktok {
+  background: #000000;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #55ACEE;
+  color: white;
+}
+
 footer{
     color: palevioletred;
     text-align: center;
