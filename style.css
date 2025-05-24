@@ -67,7 +67,8 @@ body, html {
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow: hidden;
+  overflow-x: hidden; /*optional for horizontal only */
+  overflow-y: auto; 
 }
 
 search-bar {
@@ -91,6 +92,7 @@ dark-toggle {
 
 slideshow {
   position: relative;
+  height: auto;
   width: 300px;
   margin: auto;
   overflow: hidden;
