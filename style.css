@@ -43,7 +43,7 @@ label{
 }
 
 navbar{
-    display: flex; /*only appy for the top navigation*/
+    display: flex; 
     justify-content: space-between;
     background-color: pink;
     align-items: center;
@@ -55,12 +55,7 @@ navbar{
     top: 0;
 }
 
-logo{
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.nav-links {
+.nav-menu {
   list-style: none;
   display: flex;
   gap: 1.5rem;
@@ -68,13 +63,13 @@ logo{
   padding: 0;
 }
 
-.nav-links li a {
+.nav-menu li a {
   color: white;
   text-decoration: none;
   font-weight: 500;
 }
 
-.nav-links li a:hover {
+.nav-menu li a:hover {
   text-decoration: underline;
 }
 
