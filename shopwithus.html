@@ -11,8 +11,6 @@
         </head>
         <body>
             
-            <input type="text" id="search-bar" placeholder="Search products..." oninput="filterProducts()">
-            
             <header>
                 <h1>TINO CROCHETS</h1>
                 <nav class="navbar">
@@ -31,6 +29,8 @@
 
              <main class="container py-5">
                 <h2 class="text-center mb-4">SHOP WITH US</h2>
+
+                 <input type="text" id="search-bar" placeholder="Search products..." oninput="filterProducts()" />
                  
  <select id="category-filter" onchange="filterByCategory()">
     <option value="all">All Categories</option>
