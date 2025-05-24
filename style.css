@@ -64,12 +64,13 @@ navbar{
 }
 
 .nav-menu li a {
-  color: white;
+  color: pink;
   text-decoration: none;
   font-weight: 500;
 }
 
 .nav-menu li a:hover {
+  color: blueviolet;  
   text-decoration: underline;
 }
 
