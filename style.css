@@ -42,6 +42,66 @@ label{
     float: center;
 }
 
+slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Slides */
+.slide {
+  display: none;
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Caption text */
+.caption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  font-size: 1.5rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  user-select: none;
+  background: rgba(0,0,0,0.3);
+  border-radius: 50%;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+@media (max-width: 768px) {
+  .caption {
+    font-size: 1rem;
+    padding: 0.4rem;
+  }
+}
+
 navbar{
     display: flex; 
     justify-content: space-between;
