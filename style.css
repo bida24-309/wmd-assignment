@@ -44,7 +44,7 @@ label{
 
 slideshow-container {
       position: relative;
-      max-width: 600px;
+      max-width: 500px;
       margin: auto;
     }
     .slide {
@@ -96,7 +96,7 @@ navbar{
     background-color: pink;
     align-items: center;
     color: deeppink;
-    text-decoration: none;
+    text-decoration: underline;
     width: fit-content;
     postion: sticky;
     z-index: 1000;
@@ -111,13 +111,13 @@ navbar{
   padding: 0;
 }
 
-.nav-menu li a {
+.nav-menu-li-a {
   color: pink;
   text-decoration: none;
   font-weight: 500;
 }
 
-.nav-menu li a:hover {
+.nav-menu-li-a:hover {
   color: blueviolet;  
   text-decoration: underline;
 }
@@ -180,7 +180,7 @@ product {
 
 body-dark-product {
   background: #333;
-  color: white;
+  color: blueviolet;
 }
 
 product-active {
@@ -207,26 +207,6 @@ nav {
 
 left { left: 0; }
 right { right: 0; }
-
-cart {
-  margin-top: 30px;
-  background: white;
-  padding: 15px;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 8px;
-}
-
-body-dark-cart {
-  background: #333;
-  color: white;
-}
-
-category-filter {
-  margin-bottom: 15px;
-  padding: 6px;
-}
 
 /* Style all font awesome icons */
 .fa {
