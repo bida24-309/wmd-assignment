@@ -70,23 +70,7 @@
   <a class="prev" onclick="changeSlide(-1)">❮</a>
   <a class="next" onclick="changeSlide(1)">❯</a>
 </div>
-
-function showSlide(n) {
-    for (let i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
-    slides[n].style.display = "block";
-  }
-
-  function changeSlide(n) {
-    slideIndex = (slideIndex + n + slides.length) % slides.length;
-    showSlide(slideIndex);
-  }
-
-  // Initialize slideshow
-  showSlide(slideIndex);
-</script>        
-
+            
 <!-- The dots/circles -->
 <div style="text-align:center">
   <span class="dot" onclick="currentSlide(1)"></span>
@@ -97,5 +81,35 @@ function showSlide(n) {
   <span class="dot" onclick="currentSlide(6)"></span>   
 </div>
 
+     <main class="container my-5">
+            <div class="column">
+             <div class="col-md-8"> 
+             <h2 class="text-center mb-4">WELCOME TO TINO CROCHETS</h2>  
+                 
+             <p>For more information feel free to contact me at <a href="tinorejoicemhara@gmail.com">tinorejoicemhara@gmail.com</a></p>
+             <p>Call 77494233 OR 75048765</p> 
+
+                  <!-- Add icon library -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <!-- Add font awesome icons -->
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-pinterest"></a>     
+             
+
+              <!--Bootstrap JS and dependencies-->
+           <script src="https://jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+           <script src="https://jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+                 
+           <footer>
+            <p>&copy; 2025 Tino Crochets</p>
+           </footer>  
+           <!-- Bootstrap JS and dependencies -->    
+           <img src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" rel="></script>
+           <link src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script> 
+</body> 
+</html>     
  
    
