@@ -53,36 +53,42 @@
       <h2>Sweaters</h2>
       <p>P300.00</p>
       <button onclick="addToCart('Sweaters', 300.00)">Add to Cart</button>
+      <button onclick="clearCart()">Clear Cart</button>  
     </div>
     <div class="product" data-category="hats">
       <img src="images/pants.jpg" alt="Hats">
       <h2>Hats</h2>
       <p>P150.00</p>
       <button onclick="addToCart('Hats', 150.00)">Add to Cart</button>
+      <button onclick="clearCart()">Clear Cart</button>  
     </div>
     <div class="product" data-category="cardigans">
       <img src="images/jacket.jpg" alt="Cardigans">
       <h2>Cardigans</h2>
       <p>P400.00</p>
       <button onclick="addToCart('Cardigans', 400.00)">Add to Cart</button>
+      <button onclick="clearCart()">Clear Cart</button>  
     </div>
      <div class="product" data-category="tops">
       <img src="images/jacket.jpg" alt="Tops">
       <h2>Tops</h2>
       <p>P150.00</p>
       <button onclick="addToCart('Tops', 150.00)">Add to Cart</button>
+      <button onclick="clearCart()">Clear Cart</button>   
     </div>
      <div class="product" data-category="bottoms">
       <img src="images/jacket.jpg" alt="Pants and skirts">
       <h2>Pants and Skirts</h2>
       <p>$80.00</p>
       <button onclick="addToCart('Winter Jackets', 80.00)">Add to Cart</button>
+      <button onclick="clearCart()">Clear Cart</button>   
     </div>
      <div class="product" data-category="amigurumi">
       <img src="images/jacket.jpg" alt="Toys">
       <h2>Baby toys</h2>
       <p>P80.00</p>
       <button onclick="addToCart('Baby toys', 80.00)">Add to Cart</button>
+      <button onclick="clearCart()">Clear Cart</button>   
     </div>    
 
     <button class="nav left" onclick="prevProduct()">←</button>
@@ -94,6 +100,10 @@
     <ul id="cart-items"></ul>
     <p>Total: P<span id="total">00.00</span></p>
   </div>
+                 
+      let cart = JSON.parse(localStorage.getItem("cart")) || [];
+let total = parseFloat(localStorage.getItem("total")) || 0;
+           
       <script src="script.js"></script>
 
               <!--Bootstrap JS and dependencies-->
