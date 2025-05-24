@@ -70,68 +70,59 @@ body, html {
   overflow: hidden;
 }
 
-.slideshow-container {
-  position: relative;
-  max-width: 800px;
-  margin: auto;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: sans-serif;
   overflow: hidden;
 }
 
-.slide {
-  display: none;
-}
-
-img {
-  width: 100%;
-}
-
-.caption {
-  color: #fff;
-  font-size: 20px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  background: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  text-align: center;
-}
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 24px;
-  transition: 0.3s ease;
-  user-select: none;
-}
-
-.prev {
+.slideshow {
+  position: fixed;
+  top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
-.next {
-  right: 0;
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
 
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 4px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+.slide.active {
+  opacity: 1;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  top: 40%;
+  transform: translateY(-50%);
 }
+
+.content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 20px;
+}
+
 
 /* Style all font awesome icons */
 .fa {
