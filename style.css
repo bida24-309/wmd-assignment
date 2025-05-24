@@ -70,12 +70,29 @@ body, html {
   overflow: hidden;
 }
 
+shop {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+item {
+  background: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
 slider {
   position: relative;
-  width: 150px;
+  width: 100px;
   height: 150px;
   overflow: hidden;
-  margin: 0 auto 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;  
 }
 
 product-img {
@@ -88,7 +105,7 @@ product-img {
   left: 0;
 }
 
-product-img.active {
+product-img-active {
   display: block;
 }
 
@@ -96,11 +113,12 @@ slider-button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(255,255,255,0.7);
+  background: rgba(255,255,255,0.8);
   border: none;
   cursor: pointer;
   font-size: 18px;
   padding: 2px 6px;
+  border-radius: 4px;  
 }
 
 slider-prev {
@@ -109,6 +127,20 @@ slider-prev {
 
 slider-next {
   right: 5px;
+}
+
+cart {
+  margin-top: 30px;
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
 }
 
 /* Style all font awesome icons */
