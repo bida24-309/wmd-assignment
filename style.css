@@ -49,6 +49,7 @@ navbar{
     display: flex; 
     justify-content: space-between;
     background-color: pink;
+    border: palevioletred;
     align-items: center;
     color: palevioletred;
     text-decoration: underline;
@@ -71,23 +72,10 @@ nav-link:a {
   text-decoration: none;
 }
 
-nav-menu-li-a:hover {
+a:hover {
   color: blueviolet;  
   text-decoration: underline;
-}
-
-a{
-   display: block; 
-   padding: 15px 20px;
-   display: inline;
-   text-decoration: none;
-}
-
-a:hover{
-    color: blueviolet;
-    text-decoration: underline;
-    transition: background-color 0.3s ease;
-}
+}    
 
 body, html {
   margin: 0;
@@ -101,7 +89,7 @@ fullscreen-img {
   width: 100%;
   height: 100vh;
   object-fit: cover;
-  display: block;
+  display: flex;
 }
 
 search-bar {
@@ -114,18 +102,6 @@ search-bar {
   border-radius: 5px;
   border: 1px solid #ccc
 }     
-
-nav {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: white;
-  border: 1px solid #ccc;
-  font-size: 18px;
-  padding: 5px 10px;
-  cursor: pointer;
-  border-radius: 50%;
-}
 
 item {
       margin-bottom: 30px;
@@ -142,7 +118,7 @@ item h2 {
 
 price {
       font-weight: bold;
-      color: #b36b63;
+      color: purple;
     }
 
 images {
@@ -156,15 +132,18 @@ img {
       width: 24%;
       border-radius: 8px;
       object-fit: cover;
+      max-width: 100%;
+      height: auto;
     }
 
   form {
-    position: centr;  
+    position: center;  
     background-color: white;
     padding: 20px;
     max-width: 800px;
     margin-top: 40px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    Text-align: center;  
   }
 
   input-textarea {
@@ -194,7 +173,7 @@ footer{
     bottom: 0;
     position: fixed;
     color: palevioletred;
-    text-align: center;
+    text-align: left;
     font-size: larger;
 }
     
