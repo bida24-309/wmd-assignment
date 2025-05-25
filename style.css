@@ -16,7 +16,7 @@ h2-class{
 }
 
 body{
-    background-color: babypink;
+    background-color: antiquewhite;
     text-align: center;
 }
 
@@ -47,7 +47,7 @@ navbar{
     justify-content: space-between;
     background-color: pink;
     align-items: center;
-    color: softpink;
+    color: palevioletred;
     text-decoration: underline;
     width: fit-content;
     postion: sticky;
@@ -55,7 +55,7 @@ navbar{
     top: 0;
 }
 
-.nav-menu {
+nav-menu {
   list-style: none;
   display: flex;
   gap: 1.5rem;
@@ -161,6 +161,7 @@ nav {
 /*Center all font awesome icons*/
 .fa {
     text-align: center;
+    position: bottom;
 }
 
 item {
@@ -195,7 +196,8 @@ img {
     }
 
   form {
-    background-color: white;
+    position: cente;  
+    background-color: pink;
     padding: 20px;
     border-radius: 10px;
     max-width: 600px;
@@ -225,7 +227,8 @@ img {
   }
 
 footer{
-    color: blueviolet;
+    display: fixed;
+    color: palevioletred;
     text-align: left;
     font-size: larger;
 }
