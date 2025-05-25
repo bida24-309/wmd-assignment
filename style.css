@@ -50,8 +50,8 @@ label{
 navbar{
     display: flex; 
     justify-content: space-between;
-    background-color: pink;
-    border: palevioletred;
+    background-color: palevioletred;
+    border: deepink;
     align-items: center;
     color: palevioletred;
     text-decoration: underline;
