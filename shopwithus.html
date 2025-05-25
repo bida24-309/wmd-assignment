@@ -106,7 +106,25 @@
       <img src="images/toy1.jpg" alt="Plush Toy Front">
       <img src="images/toy2.jpg" alt="Plush Toy Close-up">
     </div>
-  </div>                            
+  </div>   
+
+      <h2>Order a Custom Crochet Item</h2>
+
+<form action="https://formspree.io/f/mnqknvrr" method="POST">
+  <label for="name">Name:</label><br>
+  <input type="text" name="name" required><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" name="email" required><br><br>
+
+  <label for="item">Which item?</label><br>
+  <input type="text" name="item" placeholder="e.g. Crochet Hat"><br><br>
+
+  <label for="message">Message or details:</label><br>
+  <textarea name="message" rows="4" placeholder="Colors, size, etc."></textarea><br><br>
+
+  <button type="submit">Send Order</button>
+</form>           
                  
       <script src="script.js"></script>
 
