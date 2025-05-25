@@ -16,7 +16,7 @@ h2-class{
 }
 
 body{
-    background-color: deeppink;
+    background-color: softpink;
     text-align: center;
 }
 
@@ -42,42 +42,12 @@ label{
     float: center;
 }
 
-slideshow-container {
-      position: relative;
-      max-width: 600px;
-      margin: auto;
-    }
-slide {
-      display: none;
-    }
-
-img {
-      width: 100%;
-      border-radius: 15px;
-    }
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: blueviolet;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-active-dot:hover {
-  background-color: pink;
-}
-
 navbar{
     display: flex; 
     justify-content: space-between;
     background-color: pink;
     align-items: center;
-    color: deeppink;
+    color: softpink;
     text-decoration: underline;
     width: fit-content;
     postion: sticky;
@@ -133,47 +103,8 @@ search-bar {
   margin-bottom: 20px;
   font-size: 16px;
   border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
-
-dark-toggle {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  padding: 5px 10px;
-}
-
-slideshow {
-  position: relative;
-  height: auto;
-  width: 300px;
-  margin: auto;
-  overflow: hidden;
-}
-
-product {
-  display: none;
-  background: white;
-  padding: 10px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-body-dark-product {
-  background: #333;
-  color: blueviolet;
-}
-
-product-active {
-  display: block;
-}
-
-product-img {
-  width: 100%;
-  height: auto;
-  border-radius: 6px;
-}
+  border: 1px solid #ccc
+}     
 
 nav {
   position: absolute;
@@ -186,9 +117,6 @@ nav {
   cursor: pointer;
   border-radius: 50%;
 }
-
-left { left: 0; }
-right { right: 0; }
 
 /* Style all font awesome icons */
 .fa {
@@ -267,7 +195,7 @@ img {
     }
 
   form {
-    background-color: blueviolet;
+    background-color: white;
     padding: 20px;
     border-radius: 10px;
     max-width: 600px;
@@ -284,7 +212,7 @@ img {
 
   button {
     background-color: #ff8c7a;
-    color: palevioletred;
+    color: white;
     border: none;
     padding: 10px 18px;
     font-size: 1em;
@@ -293,11 +221,11 @@ img {
   }
 
   button:hover {
-    background-color: blueviolet;
+    background-color: white;
   }
 
 footer{
-    color: palevioletred;
+    color: blueviolet;
     text-align: left;
     font-size: larger;
 }
