@@ -265,6 +265,37 @@ img {
       object-fit: cover;
     }
 
+<style>
+  form {
+    background-color: #fff3eb;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin-top: 40px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  button {
+    background-color: #ff8c7a;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    font-size: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #ff6a5a;
+  }
+
 footer{
     color: palevioletred;
     text-align: left;
