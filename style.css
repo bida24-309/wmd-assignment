@@ -13,7 +13,8 @@ nav{
 }
 
 h2-class{
-    colour: palevioletred
+    text-decoration: underline;
+    colour: palevioletred;
     text-align: center;
 }
 
@@ -65,10 +66,9 @@ nav-menu {
   padding: 0;
 }
 
-nav-menu-li-a {
+nav-link:a {
   color: palevioletred;
   text-decoration: none;
-  font-weight: 600;
 }
 
 nav-menu-li-a:hover {
