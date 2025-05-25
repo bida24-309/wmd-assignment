@@ -1,3 +1,4 @@
+
 h1{
     font-family: serif;
     color: palevioletred;
@@ -12,6 +13,7 @@ nav{
 }
 
 h2-class{
+    colour: palevioletred
     text-align: center;
 }
 
@@ -63,13 +65,13 @@ nav-menu {
   padding: 0;
 }
 
-.nav-menu-li-a {
-  color: pink;
+nav-menu-li-a {
+  color: palevioletred;
   text-decoration: none;
   font-weight: 600;
 }
 
-.nav-menu-li-a:hover {
+nav-menu-li-a:hover {
   color: blueviolet;  
   text-decoration: underline;
 }
