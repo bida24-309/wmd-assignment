@@ -40,14 +40,6 @@ label{
     float: center;
 }   
 
-body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  overflow-x: hidden; /*optional for horizontal only */
-  overflow-y: auto; 
-}
-
 search-bar {
   float: right;
   width: 100%;
