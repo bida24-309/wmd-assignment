@@ -99,9 +99,15 @@ img {
       height: auto;
     }
 
+navbar{
+    text-decoration: box;
+    color: palevioletred;
+    background-color:pink;
+}
+
 form {
     position: center;  
-    background-color: purple;
+    background-color: white;
     padding: 20px;
     max-width: 800px;
     margin-top: 40px;
@@ -113,7 +119,7 @@ form {
     width: 100%;
     padding: 8px;
     border-radius: 5px;
-    border: 1px solid purple;
+    border: 1px solid pink;
   }
 
   button {
