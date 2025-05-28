@@ -40,13 +40,6 @@ label{
     float: center;
 }  
 
-img{
-    width: 100%;
-    object-fit: cover;
-    height: 100%;
-    display: block;
-}
-
 search-bar {
   float: right;
   width: 100%;
