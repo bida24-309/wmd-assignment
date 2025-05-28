@@ -38,7 +38,14 @@ p3{
 
 label{
     float: center;
-}   
+}  
+
+img1{
+    width: 100%;
+    object-fit: cover;
+    height: 100px;
+    display: block;
+}
 
 search-bar {
   float: right;
