@@ -82,6 +82,13 @@ images {
       margin-top: 10px;
       flex-wrap: wrap;
     }
+img {
+      width: 24%;
+      border-radius: 8px;
+      object-fit: cover;
+      max-width: 100%;
+      height: auto;
+    }
 
 navbar{
     text-decoration: box;
