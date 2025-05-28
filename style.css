@@ -40,10 +40,10 @@ label{
     float: center;
 }  
 
-img1{
+img{
     width: 100%;
     object-fit: cover;
-    height: 100px;
+    height: 100%;
     display: block;
 }
 
@@ -81,14 +81,6 @@ images {
       gap: 10px;
       margin-top: 10px;
       flex-wrap: wrap;
-    }
-
-img {
-      width: 24%;
-      border-radius: 8px;
-      object-fit: cover;
-      max-width: 100%;
-      height: auto;
     }
 
 navbar{
